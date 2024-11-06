@@ -1,0 +1,177 @@
+body {
+    background: linear-gradient(to right, #000000, #434343);
+    color: #CDCDCD;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #FF5733;
+    text-shadow: 0 0 10px rgba(255, 87, 51, 0.7);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(95, 95, 95, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.payment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.payment-item {
+    background: #1a1a1a;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-item:hover {
+    background: #FF5733;
+    color: white;
+    transform: scale(1.05);
+}
+
+.img-fluid {
+    max-height: 30px;
+}
+
+.account-info {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background: #d1ecf1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.qr-code {
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.qr-code img {
+    width: 150px;
+    height: auto;
+}
+
+.marquee {
+    color: white;
+    font-size: 16px;
+    text-shadow: 0 0 3px red;
+}
+
+.button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #e74c3c;
+}
+
+.button i {
+    margin-right: 5px;
+}
+
+
+/* CSS untuk membuat gambar bulat */
+
+.rounded-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.owner-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.owner-button:hover {
+    background-color: #0056b3;
+}
+
+.powered-by {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.account-details {
+    padding: 15px;
+    background: #d1ecf1;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    color: #000;
+}
+
+.account-details strong {
+    color: #000;
+}
+
+.copy-button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.copy-button:hover {
+    background-color: #e74c3c;
+}
+
+.copy-button i {
+    margin-right: 5px;
+}

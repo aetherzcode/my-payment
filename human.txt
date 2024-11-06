@@ -1,0 +1,8 @@
+/* TEAM */
+Developer: AETHER
+Designer: AETHER
+Contact: aetherscode@gmail.com
+
+/* SITE */
+Site: my-payment.aetherz.xyz
+Version: 1.0
